@@ -1,0 +1,140 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    margin: auto;
+    width: 1140px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.center {
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+header {
+    background-color: aliceblue;
+    
+}
+
+.bag {
+    padding-top: 5rem;
+}
+
+.bag-head {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.bag-head h2 {
+
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.bag-head p {
+    font-size: 1rem;
+}
+
+.bag-images h2 {
+    font-size: 1rem;
+}
+
+.bag-images {
+    text-align: center;
+    width: 24%;
+    transition: 0.5s;
+    border-radius: 2rem;
+}
+
+.bag-images:hover {
+    border: solid 2px;
+}
+
+.bag-images img {
+    width: 80%;
+    transition: 5s;
+}
+
+.bag-images img:hover {
+    transform: rotate(360deg);
+  
+}
+.bag-images-2 img:hover{  transform: scale(.3,.3);/}
+
+
+.bag-images-1 {
+    margin-top: 3rem;
+}
+
+.bag-images h3 {
+    color: green;
+    margin-top: 0.8rem;
+}
+
+.stars {
+    margin-left: 6.1rem;
+    margin-top: 1rem;
+    color: rgb(188, 188, 24);
+}
+
+.bag-images-2 {
+    margin-top: 5rem;
+}
+
+footer {
+    margin-top: 8rem;
+    background-color: #000000;
+    color: #8b8b8b;
+}
+
+.contact h2 {
+    padding-top: 3rem;
+    font-size: 1.9rem;
+}
+
+.contact ul li {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.contact ul li i {
+    font-size: 1.3rem;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.information h2 {
+    padding-top: 3rem;
+    font-size: 1.9rem;
+}
+
+.information ul li {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.our h2 {
+    padding-top: 3rem;
+    font-size: 1.9rem;
+}
+
+.our ul li {
+    padding-top: 1rem;
+    font-size: 1.1rem;
+}
+
